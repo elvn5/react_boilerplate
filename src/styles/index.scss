@@ -1,1 +1,10 @@
 @use "variables/variables";
+@use "fonts/fonts";
+@use "normalize/normalize";
+@use "scrollbar/scrollbar";
+@use "hover/hover";
+@use "utils/utils";
+@use "global/global";
+
+@tailwind base;
+@tailwind utilities;

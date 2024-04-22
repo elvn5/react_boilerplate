@@ -21,13 +21,14 @@
     "typeRoots": ["./node_modules/@types", "./types"],
     "lib": ["dom", "es2017"],
     "paths": {
-      "components/*": ["./src/components/*"],
-      "features/*": ["./src/features/*"],
-      "services/*": ["./src/services/*"],
-      "styles/*": ["./styles/*"],
-      "utils/*": ["./src/utils/*"],
-      "pages/*": ["./src/pages/*"],
-      "assets/*": ["./src/assets/*"]
+      "components/*": ["components/*"],
+      "features/*": ["features/*"],
+      "services/*": ["services/*"],
+      "styles/*": ["styles/*"],
+      "utils/*": ["utils/*"],
+      "pages/*": ["pages/*"],
+      "assets/*": ["assets/*"],
+      "hooks/*": ["hooks/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
